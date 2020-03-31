@@ -36,7 +36,7 @@ serviceAccount:
 service:
   type: NodePort
   port: 80
-  targetPort: 8090
+#  targetPort: 8090
 
 ingress:
   enabled: false
