@@ -35,6 +35,7 @@ serviceAccount:
 
 service:
   type: NodePort
+  nodePort: 30001
   port: 8090
   targetPort: 80
 
