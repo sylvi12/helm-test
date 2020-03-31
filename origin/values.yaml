@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: linka001/image-origin
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
@@ -34,7 +34,7 @@ serviceAccount:
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 80
   targetPort: 8090
 
@@ -46,7 +46,7 @@ ingress:
   hosts:
     - host: chart-example.local
       paths: []
-  tls: []
+#  tls: []
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
