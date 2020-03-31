@@ -3,7 +3,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-03-31T14:15:46.613151256+09:00"
+    created: "2020-03-31T14:19:48.539397358+09:00"
     description: A Helm chart for Kubernetes
     digest: b03af25506331ffd224623d56d9b608568749f76e95678693568132d246ca3ea
     name: demo
@@ -14,9 +14,9 @@ entries:
   origin:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-03-31T14:15:46.61647211+09:00"
+    created: "2020-03-31T14:19:48.543425977+09:00"
     description: Origin nginx image Helm chart
-    digest: d851d69360f711164e58c62d3f9c05d1dd648ec319e7406033e5b85d4b6675fc
+    digest: 4b23fff5dcb9b24d107969ccbf29eb1b55a68876bea2d37e373471e407fde383
     keywords:
     - nginx
     - origin
@@ -24,4 +24,4 @@ entries:
     urls:
     - https://sylvi12.github.io/helm-test/stable/origin-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-31T14:15:46.610273528+09:00"
+generated: "2020-03-31T14:19:48.537369099+09:00"
