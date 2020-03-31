@@ -10,7 +10,7 @@ description: Origin nginx image Helm chart
 # Library charts provide useful utilities or functions for the chart developer. They're included as
 # a dependency of application charts to inject those utilities and functions into the rendering
 # pipeline. Library charts do not define any templates and therefore cannot be deployed.
-type: application
+#type: application
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
@@ -18,15 +18,15 @@ version: 0.1.0
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
-appVersion: latest
+appVersion: 0.1.0
 
 #kubeVersion: ">=1.15.3"
-#keywords:
-#  - nginx
-#  - origin
+keywords:
+  - nginx
+  - origin
 #home: "https://github.com/sylvi12/helm-test"
 #source:
-#  - https://github.com/sylvi12/helm-test/
+#  - https://github.com/sylvi12/helm-test/origin
 #engine: gotpl
 #icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
 #deprocated: false
