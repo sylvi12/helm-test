@@ -20,14 +20,14 @@ version: 0.1.0
 # incremented each time you make changes to the application.
 appVersion: latest
 
-kubeVersion: ">=1.15.3"
-keywords:
-  - nginx
-  - origin
+#kubeVersion: ">=1.15.3"
+#keywords:
+#  - nginx
+#  - origin
 #home: "https://github.com/sylvi12/helm-test"
 #source:
 #  - https://github.com/sylvi12/helm-test/
-engine: gotpl
+#engine: gotpl
 #icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
-deprocated: false
-tillerVersion: ">2.0.0"
+#deprocated: false
+#tillerVersion: ">2.0.0"
