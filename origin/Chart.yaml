@@ -24,9 +24,9 @@ kubeVersion: ">=1.15.3"
 keywords:
   - nginx
   - origin
-home: "https://github.com/sylvi12/helm-test"
-source:
-  - https://github.com/sylvi12/helm-test/
+#home: "https://github.com/sylvi12/helm-test"
+#source:
+#  - https://github.com/sylvi12/helm-test/
 engine: gotpl
 #icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
 deprocated: false
