@@ -27,7 +27,7 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: [ "/bin/bash", "-ce", "echo 'xxx && sleep 6000" ]
+          command: [ "/bin/bash", "-ce", "echo 'xxx' && sleep 6000" ]
           ports:
             - name: http
               containerPort: 80
