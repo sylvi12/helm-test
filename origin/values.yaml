@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: linka001/image-origin
   tag: latest
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 nameOverride: ""
