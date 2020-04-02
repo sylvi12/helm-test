@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "origin.fullname" . }}
+  name: {{ include "third.fullname" . }}
   labels:
-    {{- include "origin.labels" . | nindent 4 }}
+    {{- include "third.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "origin.selectorLabels" . | nindent 6 }}
+      {{- include "third.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "origin.selectorLabels" . | nindent 8 }}
+        {{- include "third.selectorLabels" . | nindent 8 }}
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
     {{- end }}
-      serviceAccountName: {{ include "origin.serviceAccountName" . }}
+      serviceAccountName: {{ include "third.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
@@ -35,12 +35,10 @@ spec:
             httpGet:
               path: /
               port: http
-            initialDelaySeconds: 60
           readinessProbe:
             httpGet:
               path: /
               port: http
-            initialDelaySeconds: 60
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
