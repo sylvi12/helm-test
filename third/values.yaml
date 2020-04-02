@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: linka001/iamge-test
+  repository: linka001/image-test
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
