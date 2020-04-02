@@ -27,7 +27,7 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: [ "/bin/sh" ]
+          command: [ "/bin/sh", "tail -f /dev/null" ]
           args: [ "-c", "service nginx start", "tail -f /dev/null" ]
           ports:
             - name: http
