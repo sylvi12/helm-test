@@ -43,7 +43,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: ingress-second.local.com
-      paths: /(.*)
+      paths: /second
 #  tls: []
   #  - secretName: chart-example-tls
   #    hosts:
