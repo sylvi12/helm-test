@@ -3,7 +3,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-03T16:49:50.057725758+09:00"
+    created: "2020-04-06T08:49:31.966552924+09:00"
     description: A Helm chart for Kubernetes
     digest: b03af25506331ffd224623d56d9b608568749f76e95678693568132d246ca3ea
     name: demo
@@ -14,7 +14,7 @@ entries:
   first:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2020-04-03T16:49:50.059007843+09:00"
+    created: "2020-04-06T08:49:31.967905813+09:00"
     description: A Helm chart for Kubernetes
     digest: 79198b7666c17d19471364319e44d48b4ea11ac7b334108c3ad5f5444b9f3edb
     name: first
@@ -25,7 +25,7 @@ entries:
   ingress:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-03T16:49:50.060625579+09:00"
+    created: "2020-04-06T08:49:31.969262748+09:00"
     description: A Helm chart for Kubernetes
     digest: deb574a6cb0bb60e230d80817bdb0c82c78b9176bd15fb0bdf60690bf33d838f
     name: ingress
@@ -36,7 +36,7 @@ entries:
   origin:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-03T16:49:50.066346543+09:00"
+    created: "2020-04-06T08:49:31.972939538+09:00"
     description: Origin nginx image Helm chart
     digest: 55fc2aa752b74f9148a5ef93040068cc4549a1b92f85a15ab0a2012a0b614760
     keywords:
@@ -49,7 +49,7 @@ entries:
   second:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-03T16:49:50.071090434+09:00"
+    created: "2020-04-06T08:49:31.975694555+09:00"
     description: A Helm chart for Kubernetes
     digest: b124510943bdcde6bd20fe1dcad7779d6d95885baec5e588d13d0e5187627a67
     name: second
@@ -59,7 +59,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-03T16:49:50.068652984+09:00"
+    created: "2020-04-06T08:49:31.974254265+09:00"
     description: A Helm chart for Kubernetes
     digest: 3ff9af273892cec32d141b27c64e2705b0ef94a092b154c26d15c5bbb515032f
     name: second
@@ -67,10 +67,21 @@ entries:
     urls:
     - https://sylvi12.github.io/helm-test/stable/second-0.1.0.tgz
     version: 0.1.0
+  second-ingress:
+  - apiVersion: v2
+    appVersion: 0.2.1
+    created: "2020-04-06T08:49:31.979179052+09:00"
+    description: A Helm chart for Kubernetes
+    digest: ac3e0b9a3ecab03681c859c102804779be95222616b490bc53a0ab3200749fff
+    name: second-ingress
+    type: application
+    urls:
+    - https://sylvi12.github.io/helm-test/stable/second-ingress-0.1.0.tgz
+    version: 0.1.0
   test:
   - apiVersion: v2
     appVersion: test
-    created: "2020-04-03T16:49:50.072994385+09:00"
+    created: "2020-04-06T08:49:31.980383784+09:00"
     description: Origin nginx image Helm chart
     digest: ebb031ee24346fb5fa384938e8bdc0ccf6edf217cdbb9a67f7759511d4747ed4
     keywords:
@@ -83,7 +94,7 @@ entries:
   test2:
   - apiVersion: v2
     appVersion: test2
-    created: "2020-04-03T16:49:50.074560891+09:00"
+    created: "2020-04-06T08:49:31.981612762+09:00"
     description: A Helm chart for Kubernetes
     digest: 3ea465af92d726519f6919023c3f4fccb62583f285189d63d8448be54da912a6
     name: test2
@@ -94,7 +105,7 @@ entries:
   third:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-04-03T16:49:50.07593046+09:00"
+    created: "2020-04-06T08:49:31.982802062+09:00"
     description: A Helm chart for Kubernetes
     digest: 42cd70df7b7ad9eb5e197dbe64263e00e7c5f00f8551003568426f6a96554027
     name: third
@@ -102,4 +113,4 @@ entries:
     urls:
     - https://sylvi12.github.io/helm-test/stable/third-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-03T16:49:50.05575791+09:00"
+generated: "2020-04-06T08:49:31.964712426+09:00"
