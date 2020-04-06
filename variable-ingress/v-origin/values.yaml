@@ -46,6 +46,18 @@ ingress:
     - host: ingress.value.com
       paths:
       - path: /origin
+        backend:         
+          serviceName: v-origin
+          servicePort: 80
+      - path: /second
+        backend:        
+          serviceName: v-second
+          servicePort: 80
+      - path: /third
+        backend:        
+          serviceName: v-third
+          servicePort: 80
+
 #  tls: []
   #  - secretName: chart-example-tls
   #    hosts:
