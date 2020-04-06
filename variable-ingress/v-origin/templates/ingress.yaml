@@ -38,11 +38,11 @@ spec:
               servicePort: {{ $svcPort }}
           - path: /second
             backend:
-              serviceName: {{ ."v-second".serviceName }}
+              serviceName: {{ "v-second".Values.serviceName }}
               servicePort: {{ $svcPort }}
           - path: /third
             backend:
-              serviceName: {{ ."v-third".serviceName }}
+              serviceName: {{ "v-third".Values.serviceName }}
               servicePort: {{ $svcPort }}
         {{- end }}
   {{- end }}
