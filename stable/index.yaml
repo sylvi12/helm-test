@@ -3,7 +3,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-06T14:19:52.341037626+09:00"
+    created: "2020-04-06T15:43:39.217325772+09:00"
     description: A Helm chart for Kubernetes
     digest: b03af25506331ffd224623d56d9b608568749f76e95678693568132d246ca3ea
     name: demo
@@ -14,7 +14,7 @@ entries:
   first:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2020-04-06T14:19:52.343002216+09:00"
+    created: "2020-04-06T15:43:39.218986735+09:00"
     description: A Helm chart for Kubernetes
     digest: 79198b7666c17d19471364319e44d48b4ea11ac7b334108c3ad5f5444b9f3edb
     name: first
@@ -25,7 +25,7 @@ entries:
   ingress:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-06T14:19:52.344614402+09:00"
+    created: "2020-04-06T15:43:39.22506032+09:00"
     description: A Helm chart for Kubernetes
     digest: deb574a6cb0bb60e230d80817bdb0c82c78b9176bd15fb0bdf60690bf33d838f
     name: ingress
@@ -36,7 +36,7 @@ entries:
   origin:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-06T14:19:52.349269449+09:00"
+    created: "2020-04-06T15:43:39.228756643+09:00"
     description: Origin nginx image Helm chart
     digest: 55fc2aa752b74f9148a5ef93040068cc4549a1b92f85a15ab0a2012a0b614760
     keywords:
@@ -46,10 +46,21 @@ entries:
     urls:
     - https://sylvi12.github.io/helm-test/stable/origin-0.1.0.tgz
     version: 0.1.0
+  path-first:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2020-04-06T15:43:39.229972249+09:00"
+    description: A Helm chart for Kubernetes
+    digest: d6198145b974df7418acec69b90e22c5bfeb3c070c1f90964e190b57d08447f3
+    name: path-first
+    type: application
+    urls:
+    - https://sylvi12.github.io/helm-test/stable/path-first-0.1.0.tgz
+    version: 0.1.0
   path-origin:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-06T14:19:52.351501341+09:00"
+    created: "2020-04-06T15:43:39.231457105+09:00"
     description: A Helm chart for Kubernetes
     digest: b77402adabe2b32585d4a36da524c66fddc583a76f949f8942f974c0f12f31de
     name: path-origin
@@ -60,7 +71,7 @@ entries:
   path-second:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-06T14:19:52.353480988+09:00"
+    created: "2020-04-06T15:43:39.232586056+09:00"
     description: A Helm chart for Kubernetes
     digest: ae51d4bd8d5340b61912f83789bdf0d56404309a7e861a53c5d8aa177a2df39f
     name: path-second
@@ -71,7 +82,7 @@ entries:
   path-third:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-04-06T14:19:52.356916263+09:00"
+    created: "2020-04-06T15:43:39.23374421+09:00"
     description: A Helm chart for Kubernetes
     digest: e6703146acd7601f0b54a00219934598e8e707233d6e02734f33779c1a328b81
     name: path-third
@@ -82,7 +93,7 @@ entries:
   second:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-06T14:19:52.361207463+09:00"
+    created: "2020-04-06T15:43:39.236189031+09:00"
     description: A Helm chart for Kubernetes
     digest: b124510943bdcde6bd20fe1dcad7779d6d95885baec5e588d13d0e5187627a67
     name: second
@@ -92,7 +103,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-06T14:19:52.359351915+09:00"
+    created: "2020-04-06T15:43:39.234958299+09:00"
     description: A Helm chart for Kubernetes
     digest: 3ff9af273892cec32d141b27c64e2705b0ef94a092b154c26d15c5bbb515032f
     name: second
@@ -103,7 +114,7 @@ entries:
   second-ingress:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-06T14:19:52.36364543+09:00"
+    created: "2020-04-06T15:43:39.237713412+09:00"
     description: A Helm chart for Kubernetes
     digest: 9005f8f84c676b103e6d0e4a395ae4939f30083c16cef37f4d67da19ac8ed18b
     name: second-ingress
@@ -114,7 +125,7 @@ entries:
   test:
   - apiVersion: v2
     appVersion: test
-    created: "2020-04-06T14:19:52.365495043+09:00"
+    created: "2020-04-06T15:43:39.238871476+09:00"
     description: Origin nginx image Helm chart
     digest: ebb031ee24346fb5fa384938e8bdc0ccf6edf217cdbb9a67f7759511d4747ed4
     keywords:
@@ -127,7 +138,7 @@ entries:
   test2:
   - apiVersion: v2
     appVersion: test2
-    created: "2020-04-06T14:19:52.36741945+09:00"
+    created: "2020-04-06T15:43:39.240116967+09:00"
     description: A Helm chart for Kubernetes
     digest: 3ea465af92d726519f6919023c3f4fccb62583f285189d63d8448be54da912a6
     name: test2
@@ -138,7 +149,7 @@ entries:
   third:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-04-06T14:19:52.36925945+09:00"
+    created: "2020-04-06T15:43:39.241449681+09:00"
     description: A Helm chart for Kubernetes
     digest: 42cd70df7b7ad9eb5e197dbe64263e00e7c5f00f8551003568426f6a96554027
     name: third
@@ -149,7 +160,7 @@ entries:
   third-ingress:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-04-06T14:19:52.371149514+09:00"
+    created: "2020-04-06T15:43:39.243098552+09:00"
     description: A Helm chart for Kubernetes
     digest: 394c46093716c851b977df2b18738ce6a869a817af9d90225642816e4f68bce0
     name: third-ingress
@@ -160,7 +171,7 @@ entries:
   v-origin:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-06T14:19:52.373201611+09:00"
+    created: "2020-04-06T15:43:39.244604766+09:00"
     description: A Helm chart for Kubernetes
     digest: 99fca54edddf57a78e1f5b4852ff25b479af373a46a28ac5da3624073d39e19e
     name: v-origin
@@ -171,7 +182,7 @@ entries:
   v-second:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2020-04-06T14:19:52.375207744+09:00"
+    created: "2020-04-06T15:43:39.246266077+09:00"
     description: A Helm chart for Kubernetes
     digest: 7fb5d0ae9529a79142d5da74d100b597d72aa1c6f34ce7e48ba8aaf8f268a9b1
     name: v-second
@@ -182,7 +193,7 @@ entries:
   v-third:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-04-06T14:19:52.376917023+09:00"
+    created: "2020-04-06T15:43:39.247798999+09:00"
     description: A Helm chart for Kubernetes
     digest: 8b795698cccf0e9d6d473678b39e31841bba1b37d1390894ef70877cec000228
     name: v-third
@@ -190,4 +201,4 @@ entries:
     urls:
     - https://sylvi12.github.io/helm-test/stable/v-third-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-06T14:19:52.339207941+09:00"
+generated: "2020-04-06T15:43:39.214880243+09:00"
