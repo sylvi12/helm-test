@@ -49,10 +49,14 @@ ingress:
         backend:         
           serviceName: v-origin
           servicePort: 80
+    - host:
+      paths:
       - path: /second
         backend:        
           serviceName: v-second
           servicePort: 80
+    - host:
+      paths:
       - path: /third
         backend:        
           serviceName: v-third
