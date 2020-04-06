@@ -34,15 +34,15 @@ spec:
         {{- range .paths }}
           - path: /origin
             backend:
-              serviceName: path-path-origin
+              serviceName: path-origin
               servicePort: {{ $svcPort }}
           - path: /second
             backend:
-              serviceName: path2-path-second
+              serviceName: path-second
               servicePort: {{ $svcPort }}
           - path: /third
             backend:
-              serviceName: path3-path-third
+              serviceName: path-third
               servicePort: {{ $svcPort }}
         {{- end }}
   {{- end }}
