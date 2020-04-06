@@ -44,7 +44,8 @@ ingress:
     nginx.ingress.kubernetes.io/rewrite-target: /
   hosts:
     - host: ingress.value.com
-      paths: /origin
+      paths:
+      - path: /origin
 #  tls: []
   #  - secretName: chart-example-tls
   #    hosts:
