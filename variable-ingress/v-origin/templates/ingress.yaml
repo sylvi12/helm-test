@@ -36,6 +36,15 @@ spec:
             backend:
               serviceName: {{ $fullName }}
               servicePort: {{ $svcPort }}
+          - path: /second
+            backend:
+              serviceName: v-second
+              servicePort: {{ $svcPort }}
+          - path: /third
+            backend:
+              serviceName: v-third
+              servicePort: {{ $svcPort }}
+
         {{- end }}
   {{- end }}
 {{- end }}
